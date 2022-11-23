@@ -50,9 +50,9 @@ Once the video is ran, a graph with the signal will be plotted. On this graph yo
 
 Once you have selected your threshold, the rest of the program will run within seconds and your outputs will be ready.
 
-* ** file_name ** + Variables.csv - This file contains the variables you have used for the video: startframe, stopframe, amp_threshold, frame_threshold
-* ** file_name ** + Signal.csv - This file contains the Raw, filtered and background signal for each frame of a video that you have ran, plus the coordinates of the selected ROI (region of interest)
-* ** file_name ** + Evaluation.csv - This is the file with the highest importance to you. It contains the frames of the blinks (start and stop frame), the duration in microseconds and the average interval between blinks throughout the video.
+* **file_name** + Variables.csv - This file contains the variables you have used for the video: startframe, stopframe, amp_threshold, frame_threshold
+* **file_name** + Signal.csv - This file contains the Raw, filtered and background signal for each frame of a video that you have ran, plus the coordinates of the selected ROI (region of interest)
+* **file_name** + Evaluation.csv - This is the file with the highest importance to you. It contains the frames of the blinks (start and stop frame), the duration in microseconds and the average interval between blinks throughout the video.
 
 
 
