@@ -54,5 +54,9 @@ Once you have selected your threshold, the rest of the program will run within s
 * **file_name + Signal.csv** - This file contains the Raw, filtered and background signal for each frame of a video that you have ran, plus the coordinates of the selected ROI (region of interest)
 * **file_name + Evaluation.csv** - This is the file with the highest importance to you. It contains the frames of the blinks (start and stop frame), the duration in microseconds and the average interval between blinks throughout the video.
 
+* Notes:
+
+- If you rerun a video, the files will be replaced with new files containing the new results. That means you will always have the most recent rerun and therefore the most recent versions of the 3 files above. 
+
 
 
