@@ -293,8 +293,9 @@ def saveEvaluation(bStartFrameMerged, bEndFrameMerged, blinkInterval, bDuration)
    
         fileName = filePath.split("/")[-1]
         outputName = fileName.split(".")[0] + '_Evaluation.csv'
+        pathName = filePath.split("/videos")[0] + '/data/'
        
-        with open(outputName, 'w', newline='') as file:
+        with open(pathName + outputName, 'w', newline='') as file:
            
             writer = csv.writer(file)
            
@@ -303,10 +304,12 @@ def saveEvaluation(bStartFrameMerged, bEndFrameMerged, blinkInterval, bDuration)
 
 # This function saves te start, stop frame and amplitude threshold chosen by the user and the frame threshold
 def saveVariables(startframe, stopframe, amp_threshold, frame_threshold):
+    
     fileName = filePath.split("/")[-1]
     outputName = fileName.split(".")[0] + '_Variables.csv'
+    pathName = filePath.split("/videos")[0] + '/data/'
    
-    with open(outputName, 'w', newline='') as file:
+    with open(pathName + outputName, 'w', newline='') as file:
            
             writer = csv.writer(file)
            
@@ -321,19 +324,17 @@ def save_signal_roi(Av, Avfiltered, Abg, roi):
         r = zip(roi)
         fileName = filePath.split("/")[-1]
         outputName = fileName.split(".")[0] + 'Signal.csv'
-       
-        with open(outputName, 'w', newline='') as file:
+        pathName = filePath.split("/videos")[0] + '/data/'
+               
+        with open(pathName + outputName, 'w', newline='') as file:
            
             writer = csv.writer(file)
            
-            writer.writerow(["ROI", "Raw signal", "Filtered signal", "Background signal"])
-            
-            for row in r:
-                writer.writerow(row)
+            writer.writerow(["Raw signal", "Filtered signal", "Background signal"])
            
             for i in range(0, len(framenumber)):
                            
-                writer.writerow([ '-' , Av[i], Avfiltered[i], Abg[i]])
+                writer.writerow([ Av[i], Avfiltered[i], Abg[i]])
                 
 if __name__ == "__main__":
 
