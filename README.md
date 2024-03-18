@@ -1,6 +1,7 @@
-# Emily-Horse-Blink
+# SD-Version1
 
 This repository hosts all code necessary for the Horse Blink Project.
+orseblink_improved_v2_OTA.py - This file is an improved version of the horseblink detection code co-authored by Otar and myself.
 
 ## Setting up:
 
