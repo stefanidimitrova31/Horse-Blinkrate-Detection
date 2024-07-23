@@ -1,6 +1,6 @@
 # About the project
 
-This multidisciplinary project had us (Aberystwyth University) collaborate with the Royal Agricultural University to build an algorithm which detects blinks in horses and classifies them into full blinks, half blinks and tremors. This project is on-going, but we did present a paper on UKCI2021, thus securing a spot in the conference's proceedings. They are not yet published but we are working on an expanded version of the paper where we use a pose estimation approach through DeepLabCut and compare the results to this Python script. Blinkrate in horses is an important biomarker as it is connected to dopamine levels which can reveal health conditions in horses.
+This multidisciplinary project had us (Aberystwyth University) collaborate with the Royal Agricultural University to build an algorithm which detects blinks in horses and classifies them into full blinks, half blinks and tremors. This project is on-going, but we did present a paper on UKCI2021, thus securing a spot in the conference's proceedings. They are not yet published but we are working on an expanded version of the paper where we use a pose estimation approach through DeepLabCut and compare the results to this Python script. Blinkrate in horses is an important biomarker as it is connected to dopamine levels which can reveal health conditions in horses. The curent progress of this project was submitted to UKCI 2022 and was published in the conference proceedings available here: https://link.springer.com/chapter/10.1007/978-3-031-55568-8_37
 
 
 # SD-Version1
